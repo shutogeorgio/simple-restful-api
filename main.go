@@ -11,8 +11,8 @@ import (
 )
 
 type Word struct {
-	Id   string `json:"Id"`
-	Name string `json:"Name"`
+	Id   string `json:"id"`
+	Name string `json:"name"`
 }
 
 var Words []Word
@@ -70,8 +70,16 @@ func handleRequests() {
 
 func main() {
 	Words = []Word{
-		Word{Id: "1", Name: "Hello"},
-		Word{Id: "2", Name: "Hello"},
+		Word{Id: "1", Name: "Apple"},
+		Word{Id: "2", Name: "Banana"},
+		Word{Id: "3", Name: "Refrigirator"},
+		Word{Id: "4", Name: "Sleeping"},
+		Word{Id: "5", Name: "Kicking"},
+		Word{Id: "6", Name: "Ball"},
+		Word{Id: "7", Name: "Car"},
+		Word{Id: "8", Name: "Motorcycle"},
+		Word{Id: "9", Name: "Humanity"},
+		Word{Id: "10", Name: "Passion"},
 	}
 	handleRequests()
 }
