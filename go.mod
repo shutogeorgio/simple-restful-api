@@ -1,4 +1,4 @@
-module github.com/shutogeorgio/go-api-with-mongodb.git
+module github.com/shutogeorgio/simple-restful-api
 
 go 1.13
 
